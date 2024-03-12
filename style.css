@@ -1,0 +1,93 @@
+html,body{
+	height: 99%;
+	width: 99%;
+    background-color: #fff0f0;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-image: url("bgimage.png");
+	margin: 40px;
+	padding: 5px;
+	border: 1px solid #df7c95;
+	box-shadow: 1px 3px 30px 1px #ecbbbb;
+	text-transform: capitalize;
+	font-family: 'Times New Roman', Times, serif;
+	height: 125px;
+	text-align: right;
+  font-weight: bold;
+}
+h1{
+	font-size: 0.8em;
+}
+
+#logo{
+	width: 60px;
+	position: absolute;
+	top: 70px;
+	right: 250px;
+}
+.container{
+	border:2px #2d4e2f solid;
+	position: relative;
+	top: 20px;
+	margin: 19px;
+	padding: 9px;
+	height: 800px;
+	overflow: hidden;
+	background-color: #cde5da;
+  border-style: dashed;
+  background-image: url("bgimage.png")
+}
+.wave{
+	border: #8e7396 1px solid;
+	color: #385245;
+	text-align: center;
+	background-color: #e9c4ce ;
+	font-size: 0.8em;
+	height: 40px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+	border:#8e7396 1px solid;
+	background-image:repeating-linear-gradient(#e9c4ce, #c3dacf);
+  font-size: 0.9em;
+  color: #36525e;
+  font-family: Copperplate, Papyrus, fantasy; ;
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
+#easy{
+  font-size: 0.9em;
+  color: #36525e;
+  font-family: 'Times New Roman', Times, serif; 
+}
+#medium{
+  font-size: 9px;
+  color: #36525e;
+  font-family: 'Times New Roman', Times, serif;
+}
+#hard{
+  font-size: 9px;
+  color: #36525e;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5d2849;
+}
+ol{
+  font-size: 15px;
+  color: #234185;
+  font-family: monospace;
+}
